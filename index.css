@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: rgb(0, 255, 8);
+}
+
+.content {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.content a {
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(0, 255, 8);
+}
+
+.content a:hover {
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+#volume {
+    cursor: pointer;
+}

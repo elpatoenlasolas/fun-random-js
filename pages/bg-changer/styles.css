@@ -1,0 +1,32 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 40px 0;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+button {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 15px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.252);
+}
+
+button:hover {
+    background-color: rgba(221, 221, 221, 0.793);
+}
+
+button:active {
+    background-color: rgb(181, 181, 181);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
