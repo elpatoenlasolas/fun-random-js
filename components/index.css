@@ -40,3 +40,11 @@ h1 {
 #volume {
     cursor: pointer;
 }
+
+video {
+	position: fixed;
+	z-index: -1;
+	width: auto;
+	height: 100%;
+	top: 0;
+}
