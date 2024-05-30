@@ -20,6 +20,8 @@ body {
 
 .content a:hover {
     color: white;
+    font-weight: 800;
+    padding-bottom: 1px;
 }
 
 .header {
